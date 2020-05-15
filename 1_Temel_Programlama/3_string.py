@@ -7,10 +7,12 @@
 # print(len(language))
 # print(len("Merhaba Python"))
 
+
 ###################################################
 # type() fonksiyonu
 ###################################################
 # print(type(language))
+
 
 ###################################################
 # string birleştirme (concatenate)
@@ -18,10 +20,12 @@
 # language = "python" + " programlama" + " dili"
 # print(language)
 
+
+
 ###################################################
 # string = karakterler dizisi
 ###################################################
-metin = "selam"
+# metin = "selam"
 # print(metin[1])
 
 # Bir karakter dizisinin uzunlugunun 1 eksigi, o karakter dizisinin son ögesini verir.
@@ -32,6 +36,8 @@ metin = "selam"
 # tersten sayma
 # print(metin[-1])
 # print(metin[-6]) #error
+
+
 
 
 ###################################################
@@ -47,11 +53,15 @@ metin = "selam"
 #print(karakter_dizisi[::-1]) # ters çevirme
 
 
+
+
 ###################################################
 # sort() ile sıralama
 ###################################################
 # print(sorted("kitap"))
 # print(*sorted("kitap"), sep=" > ")
+
+
 
 
 ###################################################
@@ -68,6 +78,9 @@ metin = "selam"
 #
 # yeni_kardiz = kardiz.replace("e", "", 2) # 3.parametre: kaç tane değiştireceği
 # print(yeni_kardiz)
+
+
+
 
 ###################################################
 # split() ile dilimleme
@@ -89,6 +102,16 @@ metin = "selam"
 # print(*metin.splitlines(), sep="\n")
 
 
+
+
+###################################################
+# partition() ile üçe bölme
+###################################################
+# a = "istanbul"
+# print(a.partition("an"))
+
+
+
 ###################################################
 # lower() ve upper()
 ###################################################
@@ -103,12 +126,17 @@ metin = "selam"
 # print(metin.isupper())
 
 
+
+
 ###################################################
 # capitalize() ve title() ile ilk harfleri büyütme
 ###################################################
 # metin = "pyhton programlama dili"
 # print(metin.capitalize()) # sadece ilk harf
 # print(metin.title())  # tüm kelimelerin ilk harfleri
+
+
+
 
 ###################################################
 # swapcase() ile harfleri tersine çevirme
@@ -117,12 +145,16 @@ metin = "selam"
 # print(metin.swapcase())
 
 
+
+
 ###################################################
 # startswith() ve endswith() ile kontrol etme
 ###################################################
 # kardiz = "istanbul"
 # print(kardiz.startswith("i"))
 # print(kardiz.endswith("ul"))
+
+
 
 
 ###################################################
@@ -150,11 +182,51 @@ metin = "selam"
 
 
 ###################################################
-# index(), rindex() ile karakterin index ini öğrenme
+# index() ile karakterin index ini öğrenme
 ###################################################
-kardiz = "python"
-print(kardiz.index("t"))
+# kardiz = "python"
+# print(kardiz.index("p"))
 
-kardiz = "adana"
-print(kardiz.index("a", 3)) # kaçıncı karakterden itibaten arayacağı
+# kardiz = "adana"
+# print(kardiz.index("a", 3)) # kaçıncı karakterden itibaten arayacağı
 
+
+
+
+
+###################################################
+# isalpha(), isdigit() ve isalnum() ile harf-rakam kontrolü
+###################################################
+# a = "kezban"
+# print(a.isalpha())
+
+# b = "k3zb6n"
+# print(b.isalpha())
+
+# a = "12345"
+# print(a.isdigit())
+#
+# b = "123445b"
+# print(b.isdigit())
+
+# a = "123abc"
+# print(a.isalnum())
+
+# b = "123abc>"
+# print(b.isalnum())
+
+###################################################
+# isdecimal() ile ondalık sayı kontrolü
+###################################################
+# a = "123"
+# print(a.isdecimal())
+#
+# a = "123.3"
+# print(a.isdecimal())
+
+
+
+###################################################
+# format() ile biçimlendirme
+###################################################
+# print("{} ve {} iyi bir ikilidir!".format("Django", "Python"))
