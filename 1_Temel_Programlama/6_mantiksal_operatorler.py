@@ -20,6 +20,6 @@
 # print(a)
 
 #  in işleci
-metin = "abcd"
-sonuc = "a" in metin
-print(sonuc)
+# metin = "abcd"
+# sonuc = "a" in metin
+# print(sonuc)
