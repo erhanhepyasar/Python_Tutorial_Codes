@@ -48,7 +48,7 @@
 # print(demet)
 
 #########################################################
-# Demetlerin Metodları
+# DEMETLERİN (TUPLES) METODLARI
 #########################################################
 # sadece index() ve count() var
 # çünkü immutable olduğundan değiştirme metodları yok
@@ -58,12 +58,15 @@
 #         print(metod)
 
 
+################################################################
 # index() ile elemanın index ini öğrenme
+################################################################
 # demet = ("elma", "armut", "çilek")
 # print(demet.index("armut"))
 
-
+################################################################
 # count() ile elemanın listede kaç kez yer aldığını öğrenme
+################################################################
 demet = ("elma", "armut", "elma", "çilek")
 print(demet.count("elma"))
 

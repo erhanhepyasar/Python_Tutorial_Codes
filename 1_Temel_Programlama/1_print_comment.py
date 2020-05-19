@@ -61,20 +61,20 @@
 # masraf = gün sayısı x (gidiş ücreti + dönüş ücreti)
 
 # Program Kısım-1: Hesaplama
-gun = 22
-gidisUcreti = 4
-donusUcreti = 3.5
-masraf = gun * (gidisUcreti + donusUcreti)
+# gun = 22
+# gidisUcreti = 4
+# donusUcreti = 3.5
+# masraf = gun * (gidisUcreti + donusUcreti)
 
 # Program Kısım-2: Ekrana yazdırma - basit versiyon
 # print(masraf)
 
 # Program Kısım-2: Ekrana yazdırma - detaylı versiyon
-print("-" * 35)
-print("çalışılan gün sayısı\t:", gun)
-print("işe gidiş ücreti\t\t:", gidisUcreti)
-print("işten dönüş ücreti\t\t:", donusUcreti)
-print("-" * 35)
-print("AYLIK YOL MASRAFI\t\t:", masraf)
-print("AYLIK YOL MASRAFI\t\t:", 22 * (4 + 3.5))
-print("-" * 35)
+# print("-" * 35)
+# print("çalışılan gün sayısı\t:", gun)
+# print("işe gidiş ücreti\t\t:", gidisUcreti)
+# print("işten dönüş ücreti\t\t:", donusUcreti)
+# print("-" * 35)
+# print("AYLIK YOL MASRAFI\t\t:", masraf)
+# print("AYLIK YOL MASRAFI\t\t:", 22 * (4 + 3.5))
+# print("-" * 35)

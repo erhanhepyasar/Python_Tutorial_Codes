@@ -117,14 +117,19 @@
 # print(liste)
 
 ################################################################
-# listelerin metodları
+# LİSTELERİN METODLARI
+################################################################
+
 ################################################################
 # append() ile sona eleman eklemek
+################################################################
 # liste = ["elma", "armut", "çilek"]
 # liste.append("erik")
 # print(liste)
 
+################################################################
 # extend() ile listeyi genişletmek
+################################################################
 # li1 = [1, 3, 4]
 # li2 = [10, 11, 12]
 # li1. append(li2) # listenin içine liste olarak ekliyor
@@ -135,27 +140,43 @@
 # li1. extend(li2) # listeyi genişleterek eleman olarak ekliyor
 # print(li1)
 
-#insert() ile liste içinde istenen konuma ekleme
+################################################################
+# insert() ile liste içinde istenen konuma ekleme
+################################################################
 # liste = ["elma", "armut", "çilek"]
 # liste.insert(2, "xxxx")
 # print(liste)
 
+################################################################
 # remove() ile istenen elemanı silme
+################################################################
 # liste = ["elma", "armut", "çilek"]
 # liste.remove("elma")
 # print(liste)
 
+################################################################
 # pop() ile elemanı silme ve sildiği elemanın değerini döndürme
+################################################################
 # liste = ["elma", "armut", "çilek", "kayisi", "karpuz"]
 # print(liste.pop())
 # print(liste.pop(1))
 
+################################################################
 # reverse() ile listeyi tersine çevirme
+################################################################
 # liste = ["elma", "armut", "çilek"]
 # liste.reverse()
 # print(liste)
 
+################################################################
+#reversed() ile listeyi tersine çevirme
+################################################################
+# isimler = ['ahmet', 'mehmet', 'veli', 'ayşe', 'çiğdem', 'ışık']
+# print(list(reversed(isimler)))
+
+################################################################
 # sort() ile sıralama
+################################################################
 # uyeler = ['Ahmet', 'Mehmet', 'Ceylan', 'Seyhan', 'Mahmut', 'Zeynep',
 # 'Abdullah', 'Kadir', 'Kemal', 'Kamil', 'Selin', 'Senem',
 # 'Sinem', 'Tayfun', 'Tuna', 'Tolga']
@@ -170,15 +191,30 @@
 # sayilar.sort(reverse=True)
 # print(sayilar)
 
+
+################################################################
+# sorted() ile sıralama
+################################################################
+# print(sorted(('elma', 'armut', 'kiraz', 'badem')))
+# isimler = ['ahmet', 'çiğdem', 'ışık', 'şebnem', 'zeynep', 'selin']
+# print(sorted(isimler))
+
+
+################################################################
 # index() ile elemanın index ini öğrenme
+################################################################
 # liste = ["elma", "armut", "çilek"]
 # print(liste.index("elma"))
 
+################################################################
 # count() ile bir elemanın listede kaç kez yer aldığını öğrenme
+################################################################
 # liste = ["elma", "armut", "elma", "çilek"]
 # print(liste.count("elma"))
 
+################################################################
 # copy() ile liste kopyalamak
+################################################################
 # liste1 = ["ahmet", "mehmet", "özlem"]
 # liste2 = liste1.copy()
 # print(liste1)
@@ -191,7 +227,9 @@
 # print(id(liste1)) # farklı id ler
 # print(id(liste2))
 
+################################################################
 # clear() ile listenin içeriğini silme
+################################################################
 # liste = [1, 2, 3, 5, 10, 20, 30, 45]
 # liste.clear()
 # print(liste)
